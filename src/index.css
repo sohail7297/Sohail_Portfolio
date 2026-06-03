@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:#0A0A0A;
+  color:white;
+  font-family:Inter,sans-serif;
+}
+
+.gold-text{
+  color:#D4AF37;
+}
+
+.glass{
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,0.1);
+}
+
+.gradient-gold{
+  background:linear-gradient(
+  135deg,
+  #D4AF37,
+  #FFD700
+  );
+}
+
+.hero-image{
+  box-shadow:
+  0 0 20px #D4AF37,
+  0 0 40px #D4AF37;
+}
+
+.project-card{
+
+transition:0.4s;
+
+}
+
+.project-card:hover{
+
+box-shadow:
+0 0 15px #D4AF37,
+0 0 40px #D4AF37;
+
+}
